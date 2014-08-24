@@ -8,7 +8,7 @@ It has been built using plain PHP (5.4), Twig php templating engine, CouchDB, YU
 App is ready to use, all you will need is to have CouchDB set up somewhere. By default PHP-CouchDB connector used in the app expects the database to be named "posts" - feel free to change it if you are planning to use the blog.
 
 The structure of the post that I followed when writing the app goes like this (aside of the values added as default by CouchDB):
-
+```
 {
    "post_title": "...",
    "post_content": "...",
@@ -18,3 +18,4 @@ The structure of the post that I followed when writing the app goes like this (a
    "date_published": "...", // whatever format suits you, CouchDB isn't picky
    "post_slug": "..." // I used dashed post title value here
 }
+```
