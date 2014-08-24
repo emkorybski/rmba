@@ -1,0 +1,27 @@
+/* 
+    Document   : resets
+    Created on : 19-Aug-2014, 09:31:45
+    Author     : michal
+    Description:
+        CSS rules in this file reset ONLY default PureCSS styles for email.
+*/
+
+root { 
+    display: block;
+}
+
+.email-item {
+    border-bottom: 1px solid #DDDDDD;
+    border-left: 0 solid rgba(0, 0, 0, 0);
+    padding: 0.9em 1em;
+}
+
+#nav .pure-menu a {
+    color: #FFFFFF;
+    margin-left: 0;
+}
+
+.primary-button, .secondary-button {
+    border-radius: 3px;
+    box-shadow: none;
+}
